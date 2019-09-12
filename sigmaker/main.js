@@ -1,6 +1,6 @@
-$(document).ready(function(){
+$(document).ready(function () {
     // On each click
-    $("input[type='submit']").click(function(e){
+    $("input[type='submit']").click(function (e) {
         e.preventDefault();
         // Get values in input fields
         var name = $("input[name='name']").val();
@@ -20,22 +20,22 @@ $(document).ready(function(){
             <td style="padding-top: 0; padding-bottom: 0; padding-left: 12px; padding-right: 0;">
                 <table cellpadding="0" cellspacing="0" border="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
                 <tr>
-                    <td colspan="2" style="padding-bottom: 5px; color: #25C9D0; font-size: 18px; font-family: 'Nunito', sans-serif;">${name}</td></tr>
+                    <td colspan="2" style="padding-bottom: 5px; color: #1B365D; font-weight: bold; font-size: 18px; font-family: 'Nunito', Helvetica, sans-serif;">${name}</td></tr>
                     <tr>
-                    <td colspan="2" style="color: #1B365D; font-size: 14px; font-family: 'Nunito', sans-serif;">${title}</td>
+                    <td colspan="2" style="color: #1B365D; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;">${title}</td>
                     </tr>
                     <tr>
-                    <td colspan="2" style="color: #1B365D; font-size: 14px; font-family: 'Nunito', sans-serif;">
+                    <td colspan="2" style="color: #1B365D; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;">
 <strong>HackBeanpot, Inc.</strong></td>
                     </tr>
                     <tr>
-                    <td style="color: #1B365D; text-decoration: none; font-size: 14px; font-family: 'Nunito', sans-serif;">${phone}</td>
+                    <td style="color: #1B365D; text-decoration: none; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;">${phone}</td>
                     </tr>
                     <tr>
-                    <td valign="top" style="vertical-align: top; color: #1B365D; font-size: 14px; font-family: 'Nunito', sans-serif;"><a href="http://hackbeanpot.com" style=" color: #A4DBE8; text-decoration: none; font-weight: normal; font-size: 14px;">www.hackbeanpot.com</td>
+                    <td valign="top" style="vertical-align: top; color: #1B365D; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;"><a href="http://hackbeanpot.com" style=" color: #A4DBE8; text-decoration: none; font-weight: normal; font-size: 14px;">www.hackbeanpot.com</td>
                     </tr>
                     <tr>
-                    <td style="color: #1B365D; font-size: 14px; font-family: 'Nunito', sans-serif;"><a href="mailto:${email}@hackbeanpot.com" style="color: #A4DBE8; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@hackbeanpot.com</a></td>
+                    <td style="color: #1B365D; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;"><a href="mailto:${email}@hackbeanpot.com" style="color: #A4DBE8; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@hackbeanpot.com</a></td>
                     </tr>
                 </table>
                 </td>
