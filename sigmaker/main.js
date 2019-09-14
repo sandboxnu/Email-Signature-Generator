@@ -32,7 +32,7 @@ $(document).ready(function () {
                     <td style="color: #1B365D; text-decoration: none; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;">${phone}</td>
                     </tr>
                     <tr>
-                    <td valign="top" style="vertical-align: top; color: #1B365D; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;"><a href="http://hackbeanpot.com" style=" color: #52A1B4; text-decoration: none; font-weight: normal; font-size: 14px;">www.hackbeanpot.com</td>
+                    <td valign="top" style="vertical-align: top; color: #1B365D; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;"><a href="https://hackbeanpot.com" style=" color: #52A1B4; text-decoration: none; font-weight: normal; font-size: 14px;">www.hackbeanpot.com</td>
                     </tr>
                     <tr>
                     <td style="color: #1B365D; font-size: 14px; font-family: 'Nunito', Helvetica, sans-serif;"><a href="mailto:${email}@hackbeanpot.com" style="color: #52A1B4; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@hackbeanpot.com</a></td>
