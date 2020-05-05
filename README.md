@@ -1,5 +1,11 @@
-# Tools
+# Email Signature Generator
 
-🛠 Internal tools + useful things for core members like...
+For Sandbox members who are interested in a Sandbox signature at the end of their emails :)
 
-* [An email signature generator](https://tools.hackbeanpot.com/sigmaker/) (last updated September 2019)
+# To Start
+- Clone this project to your local folder
+- Open index.html to fill out your information
+
+# Special Thanks
+[Nabeel](https://github.com/nabeelsherazi) for first creating this tool
+[HackBeanpot](https://github.com/HackBeanpot)

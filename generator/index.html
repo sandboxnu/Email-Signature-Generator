@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sandbox Signature Maker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    />
+    <!-- Important: import Nunito Sans font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      * {
+        font-family: Montserrat;
+        color: black;
+      }
+      body {
+        text-align: -webkit-center;
+      }
+      a {
+        color: #2a426b;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <br />
+        <form>
+          Full name:
+          <br />
+          <input type="text" name="name" />
+          <br />
+          Title:
+          <br />
+          <input type="text" name="title" />
+          <br />
+          Email:
+          <br />
+          <input type="text" name="email" />
+          <br />
+          <br />
+          <input
+            type="submit"
+            value="Get Signature"
+          />
+        </form>
+        <br />
+      </div>
+
+      <div>
+        <h3>Paste this to Gmail</h3>
+        <div id="signature"></div>
+      </div>
+    </div>
+    <hr />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
